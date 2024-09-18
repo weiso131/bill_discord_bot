@@ -1,0 +1,5 @@
+/target
+*.lock
+token.txt
+data.json
+.history

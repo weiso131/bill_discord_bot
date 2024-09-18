@@ -1,0 +1,11 @@
+[package]
+name = "bill_bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+regex = "1"
+serenity = "0.12.1"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1.0"
